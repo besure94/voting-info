@@ -3,7 +3,7 @@ window.onload = function() {
 	form.onsubmit = function(event) {
 		event.preventDefault();
 
-		let voteMenu = document.getElementById("age");
+		let voteMenu = document.getElementById("vote");
 		voteMenu.setAttribute("class", "hidden");
 		let under18Message = document.getElementById("under-18");
 		under18Message.setAttribute("class", "hidden");
